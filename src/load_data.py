@@ -1,23 +1,28 @@
-
 import pandas as pd
+from pathlib import Path
 
-print("Loading formal dataset...")
+# Find the main project folder
+project_folder = Path(__file__).resolve().parent.parent
+
+# Define the data folder
+data_folder = project_folder / "data"
+
+
+# Load the formal dataset
 formal = pd.read_csv(
-    "data/ru-en.formal.tsv",
+    data_folder / "ru-en.formal.tsv",
     sep="\t",
     header=None,
     names=["Russian", "English"]
 )
 
-print("Loading informal dataset...")
+# Load the informal dataset
 informal = pd.read_csv(
-    "data/ru-en.informal.tsv",
+    data_folder / "ru-en.informal.tsv",
     sep="\t",
     header=None,
     names=["Russian", "English"]
 )
 
-print("Loading custom dataset...")
-custom = pd.read_csv("data/my_own_examples.csv")
-
-print("All datasets loaded successfully!")
+# Load my own examples
+custom = pd.read_csv(data_folder / "my_own_examples.csv")

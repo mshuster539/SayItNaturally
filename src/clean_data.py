@@ -18,30 +18,14 @@ informal = pd.read_csv(
     on_bad_lines="skip"
 )
 
-# Check both datasets
-for name, data in [("FORMAL", formal), ("INFORMAL", informal)]:
-    print(f"\n--- {name} DATASET ---")
-    print("Number of rows:", len(data))
-    print("Missing values:")
-    print(data.isnull().sum())
-    print("Duplicate rows:", data.duplicated().sum())
-
-
-# Remove rows with missing translations
+# Remove rows with missing Russian sentences or English translations
 formal = formal.dropna(subset=["Russian", "English"])
 informal = informal.dropna(subset=["Russian", "English"])
 
-# Remove duplicate translations
+# Remove duplicate sentence pairs
 formal = formal.drop_duplicates()
 informal = informal.drop_duplicates()
 
-# Display final dataset sizes
-print("\nAFTER CLEANING")
-print("Formal:", formal.shape)
-print("Informal:", informal.shape)
-
-# Save cleaned datasets
+# Save the cleaned datasets as CSV files
 formal.to_csv("data/formal_cleaned.csv", index=False)
 informal.to_csv("data/informal_cleaned.csv", index=False)
-
-print("\nCleaned datasets saved successfully!")

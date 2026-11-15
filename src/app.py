@@ -14,10 +14,12 @@ classifier = joblib.load(model_path)
 
 
 def process_text(russian_text, desired_register):
-    # Check user input
+
+    # Check that the user has entered a sentence
     if not russian_text or not russian_text.strip():
         return "", "", "Please enter a Russian sentence."
 
+    # Check that a valid register has been selected
     if desired_register not in ["Formal", "Informal"]:
         return "", "", "Please select a register."
 
@@ -25,7 +27,7 @@ def process_text(russian_text, desired_register):
         # Step 1: Translate Russian into English
         english_translation = translate_text(russian_text)
 
-        # Step 2: Adapt English into the selected register
+        # Step 2: Adapt the English translation into the selected register
         adapted_text = adapt_register(
             russian_text,
             english_translation,
@@ -35,22 +37,25 @@ def process_text(russian_text, desired_register):
         if not adapted_text:
             return "", "", "No adapted sentence was generated."
 
-        # Step 3: Classify the adapted sentence
+        # Step 3: Use the classifier to predict the register
         predicted_register = classifier.predict([adapted_text])[0]
 
-        # Step 4: Check the predicted register
+        # Step 4: Compare the prediction with the selected register
         if str(predicted_register).lower() == desired_register.lower():
-            status = "Register successfully verified!"
+            status = (
+                "Register verified! The classifier's prediction "
+                "matches your selected register."
+            )
         else:
             status = (
-                f"Register mismatch. "
-                f"Selected: {desired_register}. "
-                f"Predicted: {predicted_register}."
+                "Register mismatch! The classifier's prediction "
+                "does not match your selected register. "
+                "You may want to review the sentence."
             )
 
         return (
             adapted_text,
-            str(predicted_register),
+            str(predicted_register).capitalize(),
             status
         )
 
@@ -124,3 +129,4 @@ with gr.Blocks(title="SayItNaturally") as app:
 # Launch the application
 if __name__ == "__main__":
     app.launch()
+

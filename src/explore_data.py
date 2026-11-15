@@ -1,10 +1,12 @@
-
 from pathlib import Path
 
-# Find the two dataset files
+# Find the main project folder
+project_folder = Path(__file__).resolve().parent.parent
+
+# Identify the formal and informal datasets
 dataset_files = [
-    Path("data/ru-en.formal.tsv"),
-    Path("data/ru-en.informal.tsv")
+    project_folder / "data" / "ru-en.formal.tsv",
+    project_folder / "data" / "ru-en.informal.tsv"
 ]
 
 # Inspect each dataset
@@ -12,20 +14,20 @@ for file_path in dataset_files:
 
     print("\nDataset:", file_path.name)
 
-    # Open the file and read its contents
+    # Read the dataset
     with open(file_path, "r", encoding="utf-8") as file:
-
         lines = file.readlines()
 
+    # Count the total number of rows
     print("Total rows:", len(lines))
 
-    # Examine the first five rows
+    # Display the first five rows to inspect the data
     print("\nFirst five rows:")
 
     for line in lines[:5]:
         print(repr(line))
 
-    # Count how many rows contain different numbers of tabs
+    # Count the number of tabs in each row
     tab_counts = {}
 
     for line in lines:
@@ -36,19 +38,6 @@ for file_path in dataset_files:
 
         tab_counts[number_of_tabs] += 1
 
+    # Display the tab distribution to identify inconsistent rows
     print("\nNumber of tabs per row:")
     print(tab_counts)
-
-from pathlib import Path
-
-for filename in ["ru-en.formal.tsv", "ru-en.informal.tsv"]:
-    path = Path("data") / filename
-
-    with open(path, "r", encoding="utf-8") as file:
-        lines = file.readlines()
-
-    print(f"\nChecking {filename}")
-    print("Line 531:")
-    print(repr(lines[530]))
-    print("Number of tabs:", lines[530].count("\t"))
-
