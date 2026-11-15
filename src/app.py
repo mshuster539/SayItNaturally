@@ -128,5 +128,6 @@ with gr.Blocks(title="SayItNaturally") as app:
 
 # Launch the application
 if __name__ == "__main__":
-    app.launch()
+    app.launch(share=True)
+    
 
