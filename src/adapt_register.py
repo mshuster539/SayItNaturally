@@ -57,9 +57,7 @@ def adapt_register(russian_text, english_translation, desired_register):
                 "You must follow the requested register exactly. "
                 "FORMAL: Use professional vocabulary, complete expressions "
                 "and a respectful tone. "
-                "INFORMAL: Use relaxed, natural everyday English and contractions. "
-                "Avoid slang, abbreviations and non-standard spelling. "
-                "Preserve the original meaning."
+                "INFORMAL:Use natural, fluent, everyday English. Avoid exaggerated expressions, childish wording, awkward phrases, and overly enthusiastic language. Do not force slang or contractions. Prioritise natural phrasing over making the text sound noticeably informal."
             )
         },
         {
