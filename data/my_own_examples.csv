@@ -1,0 +1,41 @@
+example_id,russian_intention,situation,register,natural_english,explanation
+1,Я хочу попросить преподавателя дать мне больше времени на задание.,Email to a teacher,formal,I was wondering if it would be possible to have a little more time to complete the assignment.,A polite indirect request is appropriate when asking a teacher for an extension.
+2,"Я хочу узнать, можно ли записаться на курс.",Email to a course organiser,formal,I would like to enquire about registering for the course.,I would like to enquire is a conventional polite phrase in formal correspondence.
+3,Я хочу поблагодарить человека за помощь.,Professional email,formal,I would like to thank you for your assistance.,Assistance is more formal than help in this context.
+4,Я не смогу присутствовать на встрече.,Email to a manager,formal,"Unfortunately, I will be unable to attend the meeting.",Unable to attend is a formal alternative to can't come.
+5,"Я хочу узнать, получили ли моё заявление.",Email to an organisation,formal,I am writing to ask whether you have received my application.,I am writing to ask clearly states the purpose of a formal email.
+6,Я хочу попросить объяснить решение.,Email to an official,formal,I would be grateful if you could clarify the decision.,I would be grateful if you could is a courteous request.
+7,Я хочу перенести назначенную встречу.,Email to a professional contact,formal,Would it be possible to reschedule our meeting?,Reschedule is suitable for professional arrangements.
+8,"Я хочу сообщить, что прикрепил документ.",Formal email,formal,Please find the document attached.,A conventional concise phrase used in formal email.
+9,"Я хочу выразить несогласие, но вежливо.",Formal discussion,formal,"I understand your point; however, I have a slightly different perspective.",Acknowledging the other person's view softens disagreement.
+10,Я хочу уточнить срок подачи документов.,Email to an admissions office,formal,Could you please confirm the application deadline?,Confirm is precise and polite for requesting official information.
+11,Я хочу извиниться за поздний ответ.,Professional email,formal,Please accept my apologies for the delayed response.,This is more formal than sorry for replying late.
+12,"Я хочу узнать, есть ли обновления по моему запросу.",Email to customer support,formal,I am writing to enquire whether there have been any updates regarding my request.,Enquire and regarding suit formal written communication.
+13,Я хочу попросить прислать дополнительную информацию.,Email to an organisation,formal,I would appreciate it if you could provide further information.,I would appreciate it if you could is a polite formal request.
+14,Я хочу отказаться от предложения.,Professional email,formal,"Thank you for the offer; however, I must respectfully decline.",Respectfully decline communicates refusal politely.
+15,Я хочу подтвердить своё участие.,Email to an event organiser,formal,I am writing to confirm my attendance.,Confirm my attendance is concise and formal.
+16,Я хочу пожаловаться на проблему с услугой.,Formal complaint,formal,I would like to raise a concern regarding the service I received.,Raise a concern is measured formal complaint language.
+17,Я хочу попросить о встрече.,Email to a university lecturer,formal,Would you be available for a meeting sometime next week?,Would you be available is polite and avoids sounding demanding.
+18,"Я хочу сказать, что ценю возможность.",Application or interview follow-up,formal,I sincerely appreciate the opportunity.,Sincerely appreciate conveys professional gratitude.
+19,"Я хочу узнать, какие документы нужны.",Email to an office,formal,Could you please let me know which documents are required?,Required is appropriate for official requirements.
+20,"Я хочу сообщить, что не смогу прийти из-за болезни.",Email to a teacher,formal,"Unfortunately, I will be unable to attend due to illness.",Due to illness is a formal way to give a brief reason.
+41,"Я хочу сказать другу, что не смогу прийти.",Text to a close friend,informal,"I can't make it today, sorry!",Can't make it is a common conversational way to cancel plans.
+42,"Я хочу спросить, что происходит.",Text to a friend,informal,What's going on?,A casual everyday question.
+43,"Я хочу сказать, что очень устал.",Chat with a friend,informal,I'm absolutely knackered.,Knackered is informal British/Irish English; it may not suit every English-speaking region.
+44,Я хочу предложить заказать еду.,Text to a friend,informal,Shall we just order some food?,"Shall we is a natural casual suggestion, especially in British and Irish English."
+45,"Я хочу сказать, что скоро буду.",Text while travelling to meet someone,informal,I'll be there in a minute!,A relaxed update; the exact timing is approximate.
+46,"Я хочу спросить, хочет ли друг пойти погулять.",Text to a friend,informal,Fancy going for a walk?,Fancy is a casual invitation common in British and Irish English.
+47,"Я хочу сказать, что это было очень круто.",Chat with a friend,informal,That was so cool!,A natural enthusiastic reaction.
+48,Я хочу попросить друга подождать.,Text to a friend,informal,Hang on a sec!,Hang on a sec is a casual way to ask someone to wait.
+49,"Я хочу сказать, что забыл ответить.",Text to a friend,informal,"Sorry, I totally forgot to reply.",Totally adds conversational emphasis.
+50,"Я хочу спросить, всё ли в порядке.",Text to a close friend,informal,You okay?,"A short, natural check-in in casual conversation."
+51,"Я хочу сказать, что мне всё равно, куда идти.",Making plans with a friend,informal,I'm happy to go wherever.,A relaxed way to show flexibility.
+52,"Я хочу сказать, что это не проблема.",Chat with a friend,informal,"No worries, it's all good.",A friendly reassuring response.
+53,Я хочу попросить прислать фотографию.,Text to a friend,informal,Send me a pic when you get a chance!,Pic is a common informal shortening of picture.
+54,"Я хочу сказать, что уже выхожу.",Text to someone waiting,informal,I'm heading out now.,A natural conversational update.
+55,"Я хочу спросить, как прошёл день.",Text to a friend,informal,How was your day?,A simple friendly question.
+56,"Я хочу сказать, что не понял шутку.",Chat with a friend,informal,I don't get the joke.,Don't get is a common conversational alternative to don't understand.
+57,Я хочу предложить посмотреть фильм.,Text to a friend,informal,Wanna watch a film?,Wanna is very informal written representation of want to; best for casual texts.
+58,"Я хочу сказать, что это звучит круто.",Chat with a friend,informal,That sounds awesome!,Awesome is an enthusiastic informal reaction.
+59,"Я хочу сказать, что немного задерживаюсь.",Text to a friend,informal,I'm running a bit late.,A common casual expression for being delayed.
+60,"Я хочу сказать, что давно не видел друга.",Text to a friend,informal,Haven't seen you in ages!,In ages is an informal expression meaning for a long time.
