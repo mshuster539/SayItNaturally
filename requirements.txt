@@ -6,3 +6,5 @@ gradio
 transformers
 sentencepiece
 sacrebleu
+torch
+sacremoses
