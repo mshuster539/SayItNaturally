@@ -8,3 +8,4 @@ sentencepiece
 sacrebleu
 torch
 sacremoses
+joblib
