@@ -51,15 +51,12 @@ cleaned datasets contained 47,536 formal and 41,616 informal sentences.
 
 ## Classifier results
 
-  Model                          Evaluation set                Accuracy
-  ------------------------------ -------------------------- -----------
-  Majority-class baseline        17,831 unseen examples           53.3%
-  TF-IDF + Logistic Regression   17,831 unseen examples       **87.7%**
-  TF-IDF + Logistic Regression   40 self-written examples     **97.5%**
+| Model | Evaluation set | Accuracy |
+|---|---|---:|
+| Majority-class baseline | 17,831 unseen examples | 53.3% |
+| TF-IDF + Logistic Regression | 17,831 unseen examples | **87.7%** |
+| TF-IDF + Logistic Regression | 40 self-written examples | **97.5%** |
 
-The self-written examples were evaluated separately and are not part of
-the held-out test set. The classifier's accuracy measures register
-classification, not the overall translation quality of the application.
 
 ## Limitations
 
