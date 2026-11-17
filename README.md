@@ -7,9 +7,7 @@ SayItNaturally allows users to enter a sentence in Russian, choose
 whether they want the English translation to sound formal or informal,
 and receive an adapted translation.
 
-## Demo
 
-**Demo video:** https://drive.google.com/file/d/1NWec_iVExkqqHGdxcipwz-D0zAMRLPoG/view?usp=sharing
 
 ## How it works
 
